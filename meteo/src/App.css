@@ -9,6 +9,8 @@ main {
   flex-grow: 1;
   text-align: center;
   padding: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 footer {
   padding: 2px;

@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Forecast from "./components/Forecast/forecast";
+import Forecast from './components/Forecast/forecast';
+import Conditions from './components/Conditions/Conditions';
 
 function App() {
   return (
@@ -13,17 +14,18 @@ function App() {
       </header>
 
       <main>
-        {/*<div id="section_1">
-          <Forecast>
+        <div id="section_1" class="box">
+          <h4> Meteo for Tokyo </h4>
+          <Forecast city='tokyo'/>
         </div>
-        <div id="section_2">
-          <Forecast>
+        <div id="section_2" class="box">
+          <h4> Meteo for Delhi </h4>
+          <Forecast city='delhi'/>
         </div>
-        <div id="section_3">
-          <Forecast>
-        </div>*/}
-
-        <Forecast />
+        <div id="section_3" class="box">
+          <h4> Meteo for Shanghai </h4>
+          <Forecast city='shanghai'/>
+        </div>
       </main>
 
       <footer>
